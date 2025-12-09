@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  AWS_REGION: us-east-1
+  AWS_REGION: ap-south-1
   S3_BUCKET: ${{ secrets.FRONTEND_BUCKET_NAME }}
   CLOUDFRONT_DIST_ID: ${{ secrets.CLOUDFRONT_DIST_ID }}
 

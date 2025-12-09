@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  AWS_REGION: us-east-1
+  AWS_REGION: ap-south-1
   LAMBDA_FUNCTION_NAME: ${{ secrets.LAMBDA_FUNCTION_NAME }}
 
 jobs:
